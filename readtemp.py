@@ -8,4 +8,4 @@ while True:
 	currentvoltage = tempsensor.read_u16() * conversion_factor
 	temp = 27 - ((currentvoltage - 0.706)/0.001721)
 	print(str(currentvoltage) + " : " + str(temp))
-	sleep(2)
+	sleep(20)
